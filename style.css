@@ -210,21 +210,48 @@
     color: #111111;
 }
 /* skin care routine */
-.skin__care__routine__header__section{
+.skin__care__routine__header__section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center; 
-    gap:10px;
+    text-align: center;
+    gap: 10px;
     margin: 100px 100px;
 }
-.skin__care__routine__header__section h3{
+.skin__care__routine__header__section h3 {
     font-size: 48px;
     color: #111111;
 }
-.skin__care__routine__header__section p{
+.skin__care__routine__header__section p {
     font-size: 18px;
     color: #696969;
+}
+.skin__care__routine__hero__section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 150px;
+}
+.skin__care__routine__hero__section h5 {
+    font-size: 24px;
+    color: #111111;
+    text-align: center;
+}
+.skin__care__routine__hero__section p {
+    font-size: 18px;
+    color: #575757;
+    text-align: center;
+}
+.skin__care__routine__hero__section div{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.skin__care__routine__hero__section__image__position__down{
+    transform: translateY(100px);
+}
+.skin__care__routine__hero__section__image__position__up{
+    transform: translateY(-100px);
 }
 /* Small Mobile (480px and below) */
 @media (max-width: 480px) {
@@ -284,6 +311,18 @@
     }
     .product__item {
         width: 90%;
+    }
+    .skin__care__routine__hero__section {
+        flex-direction: column;
+    }
+    .skin__care__routine__hero__section__image__position__down{
+        transform: translateY(0px);
+    }
+    .skin__care__routine__hero__section__image__position__up{
+        transform: translateY(0px);
+    }
+    .skin__care__routine__hero__section { 
+        margin-top: 10px;
     }
 }
 /* Mobile (up to 600px) */
@@ -345,6 +384,18 @@
     .product__item {
         width: 90%;
     }
+    .skin__care__routine__hero__section {
+        flex-direction: column;
+    }
+    .skin__care__routine__hero__section__image__position__down{
+        transform: translateY(0px);
+    }
+    .skin__care__routine__hero__section__image__position__up{
+        transform: translateY(0px);
+    }
+    .skin__care__routine__hero__section { 
+        margin-top: 10px;
+    }
 }
 /* tablet */
 @media (min-width: 600px) and (max-width: 768px) {
@@ -405,6 +456,18 @@
     .product__item {
         width: 90%;
     }
+    .skin__care__routine__hero__section {
+        flex-direction: column;
+    }
+    .skin__care__routine__hero__section__image__position__down{
+        transform: translateY(0px);
+    }
+    .skin__care__routine__hero__section__image__position__up{
+        transform: translateY(0px);
+    }
+    .skin__care__routine__hero__section { 
+        margin-top: 10px;
+    }
 }
 /* Small Desktop (768px to 1024px) */
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -464,5 +527,17 @@
     }
     .product__item {
         width: 90%;
+    }
+    .skin__care__routine__hero__section {
+        flex-direction: column;
+    }
+    .skin__care__routine__hero__section__image__position__down{
+        transform: translateY(0px);
+    }
+    .skin__care__routine__hero__section__image__position__up{
+        transform: translateY(0px);
+    }
+    .skin__care__routine__hero__section { 
+        margin-top: 10px;
     }
 }
