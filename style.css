@@ -253,6 +253,13 @@
 .skin__care__routine__hero__section__image__position__up{
     transform: translateY(-100px);
 }
+/* Success Stories from Our Clients ! */
+.success__stories__hero__section{
+    display: flex;
+    gap:30px;
+    justify-content: center;
+    margin-top: 100px;
+}
 /* Small Mobile (480px and below) */
 @media (max-width: 480px) {
     .nav__link {
