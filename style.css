@@ -193,7 +193,23 @@
     display: flex;
     gap:20px;
 }
-
+.our__best__product__headline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    text-align: center;
+    margin: 100px 100px;
+   
+}
+.our__best__product__headline p{
+font-size: 18px;
+color: #696969;
+}
+.our__best__product__headline h2{
+    font-size: 52px;
+    color: #111111;
+    }
 /* Small Mobile (480px and below) */
 @media (max-width: 480px) {
     .nav__link {
