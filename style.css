@@ -105,111 +105,127 @@
     margin-top: 40px;
 }
 /* product range */
-.product__sample{
+.product__sample {
     display: flex;
     justify-content: space-between;
 }
 
-.product__range h2{
+.product__range h2 {
     font-size: 52px;
     text-align: center;
     margin-top: 100px;
 }
-.product__range p{
+.product__range p {
     font-size: 18px;
     text-align: center;
-    color:#696969;
+    color: #696969;
     margin-top: 20px;
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
 }
-.product__range__contant{
+.product__range__contant {
     margin-top: 120px;
     display: flex;
     justify-content: space-between;
 }
-.product__range__contant__image__position{
+.product__range__contant__image__position {
     transform: translateY(-30px);
 }
-.product__range__contant__image__position__2nd{
+.product__range__contant__image__position__2nd {
     transform: translateX(30px);
 }
-.product__range__contant__text__and__button p{
+.product__range__contant__text__and__button p {
     font-size: 24px;
-    color: #2E2E2E;
+    color: #2e2e2e;
 }
-.product__range__contant__text__and__button button{
+.product__range__contant__text__and__button button {
     padding: 12px 22px 12px 22px;
     font-size: 16px;
-    color:#FFFFFF;
+    color: #ffffff;
     background-color: #111111;
     display: flex;
     align-items: center;
-    gap:10px;
+    gap: 10px;
     border-radius: 26px;
     cursor: pointer;
 }
 /* our best product */
-.product__item{
+.product__item {
     width: 33%;
-    background-color: #F4F2EE;
+    background-color: #f4f2ee;
     border-radius: 16px;
 }
-.button__emoji{
+.button__emoji {
     display: flex;
-   justify-content: space-between;
+    justify-content: space-between;
 }
-.button__emoji button{
+.button__emoji button {
     margin: 10px 0px;
     padding: 10px 0;
     border-radius: 16px;
     border: none;
     cursor: pointer;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
-.button__emoji img{
+.button__emoji img {
     cursor: pointer;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border-radius: 63px;
     margin: 10px 0px;
     padding: 10px;
 }
-.product__item__image{
+.product__item__image {
     display: flex;
     justify-content: center;
 }
-.product__item__text{
+.product__item__text {
     display: flex;
     justify-content: space-between;
 }
-.product__item__text p{
+.product__item__text p {
     font-size: 18px;
     color: #111111;
 }
-.product__item__text h4{
+.product__item__text h4 {
     font-size: 24px;
     color: #111111;
 }
-.best__product{
+.best__product {
     display: flex;
-    gap:20px;
+    gap: 20px;
 }
-.our__best__product__headline{
+.our__best__product__headline {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap:20px;
+    gap: 20px;
     text-align: center;
     margin: 100px 100px;
-   
 }
-.our__best__product__headline p{
-font-size: 18px;
-color: #696969;
+.our__best__product__headline p {
+    font-size: 18px;
+    color: #696969;
 }
-.our__best__product__headline h2{
+.our__best__product__headline h2 {
     font-size: 52px;
     color: #111111;
-    }
+}
+/* skin care routine */
+.skin__care__routine__header__section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    gap:10px;
+    margin: 100px 100px;
+}
+.skin__care__routine__header__section h3{
+    font-size: 48px;
+    color: #111111;
+}
+.skin__care__routine__header__section p{
+    font-size: 18px;
+    color: #696969;
+}
 /* Small Mobile (480px and below) */
 @media (max-width: 480px) {
     .nav__link {
@@ -241,32 +257,32 @@ color: #696969;
     .hero__section {
         gap: 20px;
     }
-    .product__sample{
-       flex-direction: column;
-       gap:10px;
+    .product__sample {
+        flex-direction: column;
+        gap: 10px;
     }
-    .product__range__contant{
+    .product__range__contant {
         flex-direction: column;
     }
-    .product__range__contant__image{
+    .product__range__contant__image {
         display: grid;
-        gap:20px;
-    } 
-    .product__range__contant__image img{
+        gap: 20px;
+    }
+    .product__range__contant__image img {
         width: 100%;
     }
-    .product__range__contant__image__position{
+    .product__range__contant__image__position {
         transform: translateY(0px);
     }
-    .product__range__contant__image__position__2nd{
+    .product__range__contant__image__position__2nd {
         transform: translateX(0px);
     }
-    .best__product{
-       flex-direction: column;
-       justify-content: center;
-       align-items: center;
+    .best__product {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-    .product__item{
+    .product__item {
         width: 90%;
     }
 }
@@ -301,34 +317,34 @@ color: #696969;
     .hero__section {
         gap: 20px;
     }
-    .product__sample{
+    .product__sample {
         flex-direction: column;
-        gap:10px;
-     }
-     .product__range__contant{
+        gap: 10px;
+    }
+    .product__range__contant {
         flex-direction: column;
     }
-    .product__range__contant__image{
+    .product__range__contant__image {
         display: grid;
-        gap:20px;
-    } 
-    .product__range__contant__image img{
+        gap: 20px;
+    }
+    .product__range__contant__image img {
         width: 100%;
     }
-    .product__range__contant__image__position{
+    .product__range__contant__image__position {
         transform: translateY(0px);
     }
-    .product__range__contant__image__position__2nd{
+    .product__range__contant__image__position__2nd {
         transform: translateX(0px);
     }
-    .best__product{
+    .best__product {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-     }
-     .product__item{
-         width: 90%;
-     }
+    }
+    .product__item {
+        width: 90%;
+    }
 }
 /* tablet */
 @media (min-width: 600px) and (max-width: 768px) {
@@ -361,34 +377,34 @@ color: #696969;
     .hero__section {
         gap: 20px;
     }
-    .product__sample{
+    .product__sample {
         flex-direction: column;
-        gap:10px;
-     }
-     .product__range__contant{
+        gap: 10px;
+    }
+    .product__range__contant {
         flex-direction: column;
     }
-    .product__range__contant__image{
+    .product__range__contant__image {
         display: grid;
-        gap:20px;
-    } 
-    .product__range__contant__image img{
+        gap: 20px;
+    }
+    .product__range__contant__image img {
         width: 100%;
     }
-    .product__range__contant__image__position{
+    .product__range__contant__image__position {
         transform: translateY(0px);
     }
-    .product__range__contant__image__position__2nd{
+    .product__range__contant__image__position__2nd {
         transform: translateX(0px);
     }
-    .best__product{
+    .best__product {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-     }
-     .product__item{
-         width: 90%;
-     }
+    }
+    .product__item {
+        width: 90%;
+    }
 }
 /* Small Desktop (768px to 1024px) */
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -421,32 +437,32 @@ color: #696969;
     .hero__section {
         gap: 20px;
     }
-    .product__sample{
+    .product__sample {
         flex-direction: column;
-        gap:10px;
-     }
-     .product__range__contant{
+        gap: 10px;
+    }
+    .product__range__contant {
         flex-direction: column;
     }
-    .product__range__contant__image{
+    .product__range__contant__image {
         display: grid;
-        gap:20px;
-    } 
-    .product__range__contant__image img{
+        gap: 20px;
+    }
+    .product__range__contant__image img {
         width: 100%;
     }
-    .product__range__contant__image__position{
+    .product__range__contant__image__position {
         transform: translateY(0px);
     }
-    .product__range__contant__image__position__2nd{
+    .product__range__contant__image__position__2nd {
         transform: translateX(0px);
     }
-    .best__product{
+    .best__product {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-     }
-     .product__item{
-         width: 90%;
-     }
+    }
+    .product__item {
+        width: 90%;
+    }
 }
