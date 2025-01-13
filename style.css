@@ -406,6 +406,13 @@
     .success__stories__header_section{   
         margin-top: 100px;
     }
+    .footer__content{
+        flex-direction: column;
+        gap:30px;
+    }
+    .your__information{
+        display: none;
+    }
 }
 /* Mobile (up to 600px) */
 @media (min-width: 480px) and (max-width: 600px) {
@@ -483,6 +490,13 @@
     }
     .success__stories__header_section{   
         margin-top: 100px;
+    }
+    .footer__content{
+        flex-direction: column;
+        gap:30px;
+    }
+    .your__information{
+        display: none;
     }
 }
 /* tablet */
@@ -562,6 +576,9 @@
     .success__stories__header_section{   
         margin-top: 100px;
     }
+    .footer__content__text{
+        display: none;
+    }
 }
 /* Small Desktop (768px to 1024px) */
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -639,5 +656,12 @@
     }
     .success__stories__header_section{   
         margin-top: 100px;
+    }
+    .footer__content{
+        gap:250px;
+        justify-content: center;
+    }   
+    .footer__content__text{
+        display: none;
     }
 }
